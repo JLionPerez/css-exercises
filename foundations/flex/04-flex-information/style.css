@@ -1,10 +1,16 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /* what I added */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
 }
 
 img {
   width: 100px;
   height: 100px;
+  /* what I added */
 }
 
 .title {
@@ -23,4 +29,16 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* what I added */
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant {
+  display: flex;
+  justify-content: center;
 }
