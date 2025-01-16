@@ -2,15 +2,15 @@ body {
   font-family: 'Courier New', Courier, monospace;
   /* what I added */
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
   gap: 32px;
 }
 
 img {
   width: 100px;
   height: 100px;
-  /* what I added */
 }
 
 .title {
@@ -35,10 +35,19 @@ img {
 .items {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   gap: 52px;
 }
 
 .plant {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
