@@ -30,12 +30,22 @@ body {
 
 /* what I added below */
 
+.header, .content, .card-box, .footer, .sidebar, ul {
+  display: flex;
+}
+
 .card {
   padding: 16px;
+  width: 300px;
+  height: 200px;
 }
 
 ul {
   list-style-type: none;
+  gap: 20px;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -43,13 +53,11 @@ a {
   color: white;
 }
 
-.card {
-  width: 300px;
-  height: 200px;
-}
-
-.header, .content, .card-box, .footer {
-  display: flex;
+.sidebar {
+  flex-shrink: 0;
+  font-size: 24px;
+  padding: 16px;
+  justify-content: flex-start;
 }
 
 .card-box {
