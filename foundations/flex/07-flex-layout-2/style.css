@@ -30,8 +30,16 @@ body {
 
 /* what I added below */
 
-.header, .content, .card-box, .footer, .sidebar, ul {
+.header, .content, .card-box, .footer, .sidebar, ul, body {
   display: flex;
+}
+
+body {
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
 }
 
 .card {
