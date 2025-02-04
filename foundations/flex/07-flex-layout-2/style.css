@@ -38,6 +38,13 @@ body {
   flex-direction: column;
 }
 
+.header {
+  font-size: 32px;
+  font-weight: 900px;
+  padding-left: 16px;
+  align-items: center;
+}
+
 .footer {
   justify-content: center;
   align-items: center;
