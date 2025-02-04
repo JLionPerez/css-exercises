@@ -30,6 +30,10 @@ body {
 
 /* what I added below */
 
+ul {
+  list-style-type: none;
+}
+
 .header, .content, .card-box, .footer {
   display: flex;
 }
