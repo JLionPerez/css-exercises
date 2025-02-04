@@ -30,6 +30,10 @@ body {
 
 /* what I added below */
 
+.card {
+  padding: 16px;
+}
+
 ul {
   list-style-type: none;
 }
